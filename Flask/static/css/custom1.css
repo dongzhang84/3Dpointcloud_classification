@@ -1,0 +1,148 @@
+.main {
+text-align: center;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+.main h1 {
+font-size: 3.5em;
+font-family: "Verdana";
+color: #212F6A;
+}
+
+.main2 h1 {
+padding-top: 57px;
+font-size: 3.5em;
+font-weight: bold;
+font-family: "Verdana";
+color: #212F6A;
+text-align: center;
+}
+
+.main h2 {
+font-size: 2em;
+font-family: "Verdana";
+color: #212F6A;
+}
+.main h3 {
+font-size: 2em;
+font-family: "Verdana";
+color: #black;
+}
+.main p {
+font-size:1em;
+font-family: "Verdana";
+color: #black;
+}
+.buttons {
+display: flex;
+flex-wrap: nowrap;
+}
+.input {
+  font-size:1.50em;
+  font-family: "Verdana";
+  color: #black;
+}
+.floatLeft {
+	float:left;
+	font-family: "Verdana";
+	margin-left:5%;
+}
+.floatRight {
+	float:right;
+	font-family: "Verdana";
+	margin-right:5%;
+}
+.intro_text {
+	font-family: "Verdana";
+	text-align: center;
+}
+.search_box {
+	font-size: 1em;
+	font-family: "Verdana";
+	text-align: center;
+}
+.btn{
+	float:left;
+}
+.btn-danger{
+	margin-left:10px;
+	border-color: #B53737;
+	background-color: #B53737;
+}
+
+.btn-success{
+	border-color: #50C878;
+	background-color: #50C878;
+}
+
+.input {
+	color: white;
+}
+
+.icon {
+	width: 16px;
+	height: 24px;
+}
+
+body {
+	background-color: rgb(230,230,230);
+	background-image: url("bkgd.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body::after {
+	content: "";
+	background: url("bkgd.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.4;
+  	top: -420px;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;   
+}
+
+button {
+    padding: 1vh 2vw;
+    background-color: #2E3759;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(0,0,0,0);
+    color: #2E3759;
+    border-color: #2E3759;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  font-family: "Verdana";
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background: #DEDDDA;
+}
+
+table {
+  width: 300px;
+  font-family: "Verdana";
+  background-color: rgba(150,150,150,0.5);
+}
+
+th {
+  text-align: center;
+}

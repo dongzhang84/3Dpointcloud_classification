@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="IE=edgechrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=10.0, user-scalable=1" name="viewport" />
+
+    <link rel="stylesheet" type="text/css" href="../static/css/custom.css">
+
+<title>RecAll</title>
+</head>
+
+<body>
+  <div class="main">
+      <h1>RecAll</h1>
+    	<h2>A Multi-Media Recommender</h2>
+  </div>
+  
+  <div class='search_box'>
+    <form action="/text_recommender", method='POST'>
+      <h3>What are you looking for?</h3>
+      <p>
+        <input class="input" type="text" name="medium_keywords" />
+      </p>
+    </form>
+  </div>
+  <div class='intro_text'>
+      <p>Type in keywords separated by spaces, commas (,) or semicolons (;)<br>
+      Example: spy female action comedy</p>
+      <p>If there's something you don't like, exclude it with a "not" or a -<br>
+      Example: spy female action comedy not violent<br>
+      Or: spy female action comedy -violent</p>
+  </div>
+</body>
