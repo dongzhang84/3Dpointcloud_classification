@@ -6,7 +6,7 @@ Thus, I created a tool to segment 3D objects and classify some of them automatic
 
 In addition to the github repo, I also describe the details of my project in the website:
 
-http://people.virginia.edu/~dz7g/classify3d.html
+https://dongzhang84.github.io/classify3d
 
 My presentation slides and video can be given upon request.
  
